@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,7 +48,7 @@
             letter-spacing: -2px;
         }
 
-        .hero p {
+        .hero > p {
             margin: 20px 0 40px;
             color: #aeb5c2;
             font-size: 18px;
@@ -55,7 +56,7 @@
 
         .download-box {
             max-width: 500px;
-            margin: 0 auto;
+            margin: 0 auto 25px;
             padding: 30px;
             background: #181d27;
             border: 1px solid #2c3340;
@@ -68,7 +69,33 @@
 
         .download-box p {
             font-size: 14px;
+            color: #aeb5c2;
             margin-bottom: 25px;
+        }
+
+        .server-box {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 30px;
+            background: #181d27;
+            border: 1px solid #2c3340;
+            border-radius: 12px;
+        }
+
+        .server-box h2 {
+            margin-top: 0;
+        }
+
+        .server-box p {
+            color: #aeb5c2;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .server-message {
+            font-size: 18px !important;
+            color: #ffffff !important;
+            font-weight: bold;
         }
 
         .button {
@@ -101,6 +128,11 @@
 
         .secondary:hover {
             background: #303947;
+        }
+
+        .server-button {
+            background: #ffffff;
+            color: #10131a;
         }
 
         footer {
@@ -147,6 +179,26 @@
 
         </div>
 
+        <div class="server-box">
+
+            <h2>Looking for something to do?</h2>
+
+            <p class="server-message">
+                Bored? Don't give up yet. We have a server for you. 🗿
+            </p>
+
+            <p>
+                Download the Voxel 1.8.9.3 server and start playing with others.
+            </p>
+
+            <a class="button server-button"
+               href="voxel-server.1.8.9.3.jar"
+               download>
+                Download Voxel Server
+            </a>
+
+        </div>
+
     </section>
 </main>
 
@@ -156,3 +208,4 @@
 
 </body>
 </html>
+```
